@@ -1,0 +1,143 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    line-height: 1.45;
+}
+header 
+{
+  color: #FFFFFF;
+  background-color: #0d3550;
+  padding: 5em 0;
+  text-align: center;
+}
+
+header .container h1
+{
+    font-size: 48px;
+    margin: 0 0 1em 0;
+}
+
+header .container h2
+{
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0 0 1em 0;
+}
+
+.container
+{
+    margin: 0 auto;
+    padding: 0 1.25em 0 1.25em;
+    max-width: 56.25em;
+}
+
+.btn
+{
+    display: inline-block;
+    color: #1a1a1a;
+    font-weight: 600;
+    background: #0db969;
+    border: none;
+    border-radius: 0.3125em;
+    padding: 0.75em 1em;
+}
+
+.btn:hover
+{
+    background-color: #468486;
+    cursor: pointer;
+}
+
+section 
+{
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.features 
+{
+  background: #e5e5e5;
+  color: #020202;
+}
+
+.feature
+{
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+.feature i
+{
+    width: 40%;
+}
+
+.quote 
+{
+  background:#297d80;
+  color:#FFFFFF;
+}
+
+blockquote
+{
+    text-align: center;
+}
+
+blockquote p
+{
+    margin: 0 0 0.3125em 0;
+    font-size: 24px;
+}
+
+blockquote cite
+{
+    font-size: 1em;
+    font-style: italic;
+}
+
+blockquote cite::before
+{
+    content: '-';
+    margin-right: 0.3125em;
+}
+
+footer 
+{
+  background: #353535;
+  padding: 2em 0;
+  text-align: center;
+  color: #a5a5a5;
+  font-size: 12px;
+} 
+
+footer ul
+{
+    list-style: none;
+}
+
+footer li
+{
+    display: inline-block;
+}
+
+footer li a
+{
+    padding: 0.375em;
+    font-size: 16px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+footer li a:hover
+{
+    color:#FFFFFF
+}

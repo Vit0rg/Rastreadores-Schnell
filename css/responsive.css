@@ -1,0 +1,69 @@
+@media screen and (max-width: 480px)
+{
+    header .container .btn
+    {
+        display: block;
+        font-size: 18px;
+    }
+
+    header .container h1
+    {
+        font-size: 32px;
+        margin-bottom: 0.5em;
+    }
+
+    header .container h2
+    {
+        font-size: 18px;
+    }
+
+    section
+    {
+        padding: 1.15625em 0 0.9375em 0;
+    }
+
+    .feature
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-bottom: .5em;
+        font-weight: 550;
+    }
+
+    .feature i
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    }
+
+    .quote
+    {
+        padding: 1.875em 0;
+    }
+
+    blockquote
+    {
+        font-size: 18px;
+    }
+
+    blockquote cite
+    {
+        font-size: 14px;
+    }
+
+    footer
+    {
+        padding: 1.875em 0 0.625em 0;
+    }
+
+    footer li
+    {
+        display: block;
+        margin: 0.3125em 0;
+        font-size: 18px;
+    }
+}
