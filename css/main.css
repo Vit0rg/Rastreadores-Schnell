@@ -47,14 +47,41 @@ header .container h2
     font-weight: 600;
     background: #0db969;
     border: none;
-    border-radius: 0.3125em;
+    border-radius: 5px;
     padding: 0.75em 1em;
 }
 
 .btn:hover
 {
-    background-color: #468486;
+    background-color: #017e3f;
     cursor: pointer;
+}
+
+header .container .submenu
+{
+    display: none;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    position: absolute;
+    background-color: #0db969;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+header .container .submenu a
+{
+    color: #1a1a1a;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    display: block;
+}
+
+header .container .submenu a:hover
+{
+    border-radius: 5px;
+    background-color: #017e3f;
 }
 
 section 

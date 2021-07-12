@@ -17,6 +17,12 @@
         font-size: 18px;
     }
 
+    header .container .submenu 
+    {
+        width: 100%;
+        position: relative;
+    }
+
     section
     {
         padding: 1.15625em 0 0.9375em 0;
